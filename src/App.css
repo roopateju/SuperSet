@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,11 +7,11 @@
   
 
   body {
-    background-color: #b9b9b9; 
+    background-color: #b9b9b9;
     color: #333;
     line-height: 1.6;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .app-container {
@@ -49,5 +49,5 @@
     padding: 10px 20px;
     text-align: center;
     color: #555;
-  }
+  } */
   

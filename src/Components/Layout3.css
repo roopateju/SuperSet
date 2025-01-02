@@ -1,0 +1,93 @@
+.Layout-main {
+    width: 90%;
+    margin: 0   auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 3fr 5fr; 
+    gap: 20px;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.main{
+    width: 80%;
+}
+
+.main h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.main p {
+    font-size: 1.8rem;
+    color: #798694;
+    margin-bottom: 20px;
+}
+
+.universities {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px; 
+}
+
+.university {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.university-img img {
+    width: 50%;
+    height: auto; 
+    object-fit: cover;
+    /* border-radius: 4px; */
+    margin-bottom: 10px; 
+}
+
+.university-name h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 768px) {
+    .Layout-main {
+        grid-template-columns: 1fr; 
+    }
+
+    .main h2 {
+        font-size: 20px;
+    }
+
+    .main p {
+        font-size: 14px;
+    }
+
+    .university {
+        width: 100%; 
+    }
+
+    .university-img img {
+        height: 150px; 
+    }
+
+    .university-name h3 {
+        font-size: 16px; 
+    }
+} */
